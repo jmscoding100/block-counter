@@ -1,0 +1,103 @@
+*{box-sizing: border-box;}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdfd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.button{
+    padding: 8px 14px;
+    text-transform: capitalize;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    padding: 3px;
+    width: 50%;
+    /* border: 1px solid black; */
+}
+
+
+
+p{
+    font-size: 2rem;
+}
+
+
+.counter-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: calc(100%/3);
+    height: 30vh;
+    margin: 40px auto;
+    padding: 15px;
+    border: 3px solid rebeccapurple;
+    border-radius: 5px;
+}
+
+.odd{
+    color: rgb(42, 123, 230);
+}
+
+
+.even{
+    color: rgb(220, 58, 58);
+}
+
+.block{
+    width: 80px;
+    margin: 10px;
+    height: 80px;
+    background-color: red;
+    border-radius: 5px;
+}
+
+
+.block-div{
+    height: 100%;
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+
+}
+
+
+
+#addButton{
+    background-color: rgb(52, 161, 78);
+}
+
+#addButton:hover{
+    background-color: aqua;
+}
+
+#subButton{
+    background-color: rgb(255, 0, 0);
+}
+
+
+#subButton:hover{
+    background-color: cadetblue;
+}
+
+#myName{
+    text-align: center;
+    font-size: 3rem;
+    color: rebeccapurple;
+}
