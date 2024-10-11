@@ -36,9 +36,9 @@ const buildBlocks =()=> {
 }
 
 
-const removeBlock =()=> {
-    blockDiv.removeChild(block)
-}
+// const removeBlock =()=> {
+//     blockDiv.removeChild(block)
+// }
 
 addButton.addEventListener('click', ()=> {
     // console.log('clicked')
@@ -51,6 +51,6 @@ addButton.addEventListener('click', ()=> {
 subButton.addEventListener('click', ()=> {
     theCount--;
     changeColor()
-    removerBlock()
+    // removeBlock()
     count.innerText = theCount
 })
